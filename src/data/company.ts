@@ -26,8 +26,8 @@ export const company = {
   email: "contato@centraldocamaraoatacado.com.br",
   businessDescription:
     "Distribuição de camarão salgado de qualidade para restaurantes, buffets, mercados, distribuidores e revendedores.",
-  mainProduct: "Camarão salgado 12g em caixas de 25kg",
-  operationVolume: "em média 5 toneladas distribuídas mensalmente",
+  mainProduct: "Camarão salgado 12g como carro-chefe",
+  operationVolume: "em média 60 toneladas distribuídas mensalmente",
   address: "Rua Bolívia, 61, Ananindeua - PA, 67115-120, Brasil",
   pickupHours: "08:00 às 17:00",
   phone: "+55 91 98098-5447",
@@ -77,9 +77,9 @@ export const products = [
     caliber: "12g",
     title: "Camarão salgado 12g",
     image: productImages[2],
-    packageInfo: "Produto principal • caixas de 25kg",
+    packageInfo: "Carro-chefe da operação",
     featured: true,
-    description: "Principal linha de distribuição da empresa, fornecida em caixas de 25kg.",
+    description: "Linha 12g, carro-chefe da operação de distribuição.",
   },
   {
     caliber: "14g",
@@ -141,7 +141,7 @@ export const highlights = [
   {
     icon: PackageCheck,
     title: "Produto em volume",
-    text: "Produto principal em caixas de 25kg para planejamento de estoque e compra comercial.",
+    text: "Camarão salgado 12g como carro-chefe para planejamento de compra comercial.",
   },
   {
     icon: Truck,
@@ -167,8 +167,8 @@ export const businessFacts = [
 
 export const businessNumbers = [
   { label: "Operando desde", value: company.foundingYear, note: `Atuação iniciada em ${company.openingDate}` },
-  { label: "Distribuição mensal", value: "5t/mês", note: "Volume médio distribuído mensalmente" },
-  { label: "Produto principal", value: "12g", note: "Camarão salgado em caixas de 25kg" },
+  { label: "Distribuição mensal", value: "60t/mês", note: "Volume médio distribuído mensalmente" },
+  { label: "Produto principal", value: "12g", note: "Carro-chefe da operação" },
   { label: "Regiões", value: "PA • SC • SP", note: "Pará, Santa Catarina e São Paulo" },
 ];
 

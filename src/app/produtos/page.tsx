@@ -8,7 +8,7 @@ import { absoluteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Produtos e regiões atendidas",
   description:
-    "Catálogo institucional da Central do Camarão: camarão salgado para atacado, produto principal 12g em caixas de 25kg e atendimento por região.",
+    "Catálogo institucional da Central do Camarão: camarão salgado para atacado, produto principal 12g como carro-chefe e atendimento por região.",
   alternates: {
     canonical: absoluteUrl("/produtos"),
   },

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "JR CAMARAO NO ATACADO",
     "camarão salgado no atacado",
     "distribuição de camarão salgado",
-    "camarão 12g caixa 25kg",
+    "camarão salgado 12g atacado",
     "fornecedor de camarão salgado",
     "camarão Pará",
     "camarão São Paulo",

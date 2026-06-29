@@ -32,7 +32,7 @@ const businessInfoItems: BusinessInfoItem[] = [
   { icon: PackageCheck, label: "CNPJ", value: company.cnpj },
   { icon: CalendarDays, label: "Data de abertura", value: company.openingDate },
   { icon: Globe2, label: "Domínio oficial", value: company.domain },
-  { icon: Fish, label: "Produto principal", value: "Camarão congelado para atacado e varejo." },
+  { icon: Fish, label: "Produto principal", value: company.mainProduct },
   {
     icon: Truck,
     label: "Volume mensal",
