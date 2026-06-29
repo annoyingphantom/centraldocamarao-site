@@ -27,7 +27,7 @@ export const company = {
   businessDescription:
     "Distribuição de camarão salgado de qualidade para restaurantes, buffets, mercados, distribuidores e revendedores.",
   mainProduct: "Camarão salgado 12g em caixas de 25kg",
-  operationVolume: "500kg a 2 toneladas distribuídas mensalmente",
+  operationVolume: "em média 5 toneladas distribuídas mensalmente",
   address: "Rua Bolívia, 61, Ananindeua - PA, 67115-120, Brasil",
   pickupHours: "08:00 às 17:00",
   phone: "+55 91 98098-5447",
@@ -35,9 +35,8 @@ export const company = {
   whatsappUrl: "https://wa.me/5591980985447",
   instagramUrl: "https://www.instagram.com/central.docamarao",
   facebookUrl: "https://www.facebook.com/acentral.docamarao",
-  googleBusinessProfileUrl: "#perfil-google-empresa-pendente",
-  googleMapsSearchUrl:
-    "https://www.google.com/maps/search/?api=1&query=Rua%20Bol%C3%ADvia%2C%2061%2C%20Ananindeua%20-%20PA%2C%2067115-120%2C%20Brasil",
+  googleBusinessProfileUrl: "https://maps.app.goo.gl/j6QXoTCrVLm4bggC8",
+  googleMapsSearchUrl: "https://maps.app.goo.gl/j6QXoTCrVLm4bggC8",
   googleMapsEmbedUrl:
     "https://www.google.com/maps?q=Rua%20Bol%C3%ADvia%2C%2061%2C%20Ananindeua%20-%20PA%2C%2067115-120%2C%20Brasil&output=embed",
 };
@@ -168,7 +167,7 @@ export const businessFacts = [
 
 export const businessNumbers = [
   { label: "Operando desde", value: company.foundingYear, note: `Atuação iniciada em ${company.openingDate}` },
-  { label: "Distribuição mensal", value: "500kg a 2t", note: "Volume variável conforme demanda e disponibilidade" },
+  { label: "Distribuição mensal", value: "5t/mês", note: "Volume médio distribuído mensalmente" },
   { label: "Produto principal", value: "12g", note: "Camarão salgado em caixas de 25kg" },
   { label: "Regiões", value: "PA • SC • SP", note: "Pará, Santa Catarina e São Paulo" },
 ];

@@ -90,4 +90,4 @@ Os registros de e-mail da Cloudflare Email Routing, incluindo MX e TXT, também 
 - E-mail `contato@centraldocamaraoatacado.com.br` funcionando para recebimento.
 - WhatsApp oficial funcionando em `https://wa.me/5591980985447`.
 - Instagram e Facebook oficiais acessíveis.
-- Google Business Profile incluído quando o link oficial estiver disponível.
+- Google Business Profile: https://maps.app.goo.gl/j6QXoTCrVLm4bggC8

@@ -34,6 +34,12 @@ export function BusinessInfo() {
             <p>
               <strong className="text-brand-ink">WhatsApp:</strong> {company.whatsapp}
             </p>
+            <p>
+              <strong className="text-brand-ink">Google Maps:</strong>{" "}
+              <a href={company.googleBusinessProfileUrl} target="_blank" rel="noreferrer" className="font-bold text-brand-navy transition hover:text-brand-orange">
+                Ver no Google Maps
+              </a>
+            </p>
           </div>
         </div>
 
