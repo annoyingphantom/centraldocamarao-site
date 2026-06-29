@@ -1,0 +1,13 @@
+﻿.next
+node_modules
+out
+dist
+.vercel
+*.log
+coverage
+.env
+.env.local
+.env.*.local
+lighthouse-report*.json
+drive-file-ids.txt
+
