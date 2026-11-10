@@ -61,6 +61,11 @@ export const metadata: Metadata = {
     apple: "/icon-192.png",
   },
   manifest: "/site.webmanifest",
+  verification: {
+    other: {
+      "facebook-domain-verification": "zckio7yif4blsj4g3rinurb9a3oddc",
+    },
+  },
 };
 
 export const viewport: Viewport = {
@@ -73,6 +78,12 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <meta
+          name="facebook-domain-verification"
+          content="zckio7yif4blsj4g3rinurb9a3oddc"
+        />
+      </head>
       <body className="font-sans antialiased">
         <LocalBusinessJsonLd />
         <Header />
