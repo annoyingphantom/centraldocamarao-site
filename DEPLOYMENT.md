@@ -85,9 +85,8 @@ Os registros de e-mail da Cloudflare Email Routing, incluindo MX e TXT, também 
 
 - Site publicado em `https://centraldocamaraoatacado.com.br`.
 - `www.centraldocamaraoatacado.com.br` redirecionando corretamente.
-- Rodapé exibindo razão social, nome fantasia, CNPJ, endereço, WhatsApp, Instagram e Facebook.
+- Rodapé exibindo razão social, nome fantasia, CNPJ, WhatsApp, Instagram e Facebook.
 - Páginas de Política de Privacidade e Termos de Uso publicadas.
 - E-mail `contato@centraldocamaraoatacado.com.br` funcionando para recebimento.
-- WhatsApp oficial funcionando em `https://wa.me/5591980985447`.
+- WhatsApp oficial funcionando em `https://wa.me/5511992770962`.
 - Instagram e Facebook oficiais acessíveis.
-- Google Business Profile: https://maps.app.goo.gl/j6QXoTCrVLm4bggC8

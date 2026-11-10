@@ -43,16 +43,6 @@ export function LocalBusinessJsonLd() {
       telephone: company.phone,
       email: company.email,
       foundingDate: "2019-11-22",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Rua Bolívia, 61",
-        addressLocality: "Ananindeua",
-        addressRegion: "PA",
-        postalCode: "67115-120",
-        addressCountry: "BR",
-      },
-      hasMap: company.googleMapsSearchUrl,
-      openingHours: "Mo-Fr 08:00-17:00",
       areaServed: regionsServed.map((region) => region.name),
       priceRange: "Sob consulta",
       parentOrganization: {

@@ -4,16 +4,13 @@ import {
   BadgeCheck,
   Building2,
   CalendarDays,
-  Clock,
   Fish,
   Globe2,
   Mail,
-  MapPin,
   PackageCheck,
   Phone,
   ShieldCheck,
   Truck,
-  UserRound,
 } from "lucide-react";
 import { company } from "@/data/company";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -28,7 +25,6 @@ const businessInfoItems: BusinessInfoItem[] = [
   { icon: Building2, label: "Marca pública", value: company.publicBrand },
   { icon: ShieldCheck, label: "Razão Social", value: company.legalName },
   { icon: BadgeCheck, label: "Nome Fantasia", value: company.tradeName },
-  { icon: UserRound, label: "Business Owner / Proprietário", value: "Carlos Junior" },
   { icon: PackageCheck, label: "CNPJ", value: company.cnpj },
   { icon: CalendarDays, label: "Data de abertura", value: company.openingDate },
   { icon: Globe2, label: "Domínio oficial", value: company.domain },
@@ -42,22 +38,6 @@ const businessInfoItems: BusinessInfoItem[] = [
       </>
     ),
   },
-  {
-    icon: MapPin,
-    label: "Retirada - Belém/PA",
-    value: (
-      <>
-        Rua Bolívia, 61
-        <br />
-        Ananindeua - PA
-        <br />
-        CEP 67115-120
-        <br />
-        Brasil
-      </>
-    ),
-  },
-  { icon: Clock, label: "Horário de retirada", value: company.pickupHours },
   { icon: Phone, label: "WhatsApp", value: company.whatsapp },
   {
     icon: Mail,
@@ -88,12 +68,6 @@ export function BusinessInfo() {
                   <strong className="text-brand-ink">{item.label}:</strong> {item.value}
                 </p>
               ))}
-              <p>
-                <strong className="text-brand-ink">Google Maps:</strong>{" "}
-                <a href={company.googleBusinessProfileUrl} target="_blank" rel="noreferrer" className="font-bold text-brand-navy transition hover:text-brand-orange">
-                  Ver no Google Maps
-                </a>
-              </p>
             </div>
           </div>
 

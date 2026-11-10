@@ -7,7 +7,7 @@ Website institucional em Next.js 15 para a marca pública **Central do Camarão*
 - CNPJ: 35.590.632/0001-37
 - Nome fantasia no CNPJ: JR CAMARAO NO ATACADO
 - Domínio oficial: centraldocamaraoatacado.com.br
-- WhatsApp: https://wa.me/5591980985447
+- WhatsApp: https://wa.me/5511992770962
 - Instagram: https://www.instagram.com/central.docamarao
 - Facebook: https://www.facebook.com/acentral.docamarao
 

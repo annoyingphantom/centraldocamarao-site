@@ -15,8 +15,8 @@ export function OurStructure() {
         <div>
           <SectionHeading
             eyebrow="Nossa operação"
-            title="Atendimento direto, retirada local e canais oficiais."
-            text="A Central do Camarão trabalha com fornecimento em volume, comunicação direta e retirada em Ananindeua/PA para clientes atendidos na região."
+            title="Atendimento direto e canais oficiais."
+            text="A Central do Camarão trabalha com fornecimento em volume e comunicação direta para clientes atendidos nas regiões comerciais."
           />
           <div className="mt-8 grid gap-4">
             {structureItems.map((item) => {

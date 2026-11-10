@@ -34,10 +34,6 @@ export default function TermsPage() {
             ou reutilizados sem autorização.
           </p>
           <p>
-            O ponto de retirada informado é {company.address}, com horário de atendimento das {company.pickupHours}. A
-            retirada deve ser confirmada previamente pelo atendimento oficial.
-          </p>
-          <p>
             Canais oficiais: domínio {company.domain}, e-mail {company.email}, WhatsApp {company.whatsapp}, Instagram e
             Facebook vinculados no rodapé do site.
           </p>
