@@ -38,8 +38,8 @@ export default function PrivacyPolicyPage() {
             cumprimento legal, segurança, operação do site ou execução de solicitações do próprio usuário.
           </p>
           <p>
-            Para exercer direitos relacionados à LGPD, entre em contato pelo e-mail {company.email} ou pelo WhatsApp
-            oficial {company.whatsapp}.
+            Para exercer direitos relacionados à LGPD, entre em contato pelo e-mail {company.email} ou pelo WhatsApp oficial
+            {company.whatsapp}.
           </p>
           <p>Última atualização: 28 de junho de 2026.</p>
         </div>

@@ -2,12 +2,10 @@ import {
   BadgeCheck,
   Building2,
   CalendarDays,
-  Clock,
   Factory,
   Fish,
   Globe2,
   Mail,
-  MapPin,
   PackageCheck,
   Phone,
   ShieldCheck,
@@ -28,17 +26,11 @@ export const company = {
     "Distribuição de camarão salgado de qualidade para restaurantes, buffets, mercados, distribuidores e revendedores.",
   mainProduct: "Camarão salgado 12g como carro-chefe",
   operationVolume: "em média 60 toneladas distribuídas mensalmente",
-  address: "Rua Bolívia, 61, Ananindeua - PA, 67115-120, Brasil",
-  pickupHours: "08:00 às 17:00",
-  phone: "+55 91 98098-5447",
-  whatsapp: "+55 91 98098-5447",
-  whatsappUrl: "https://wa.me/5591980985447",
+  phone: "+55 11 99277-0962",
+  whatsapp: "+55 11 99277-0962",
+  whatsappUrl: "https://wa.me/5511992770962",
   instagramUrl: "https://www.instagram.com/central.docamarao",
   facebookUrl: "https://www.facebook.com/acentral.docamarao",
-  googleBusinessProfileUrl: "https://maps.app.goo.gl/j6QXoTCrVLm4bggC8",
-  googleMapsSearchUrl: "https://maps.app.goo.gl/j6QXoTCrVLm4bggC8",
-  googleMapsEmbedUrl:
-    "https://www.google.com/maps?q=Rua%20Bol%C3%ADvia%2C%2061%2C%20Ananindeua%20-%20PA%2C%2067115-120%2C%20Brasil&output=embed",
 };
 
 export const navigation = [
@@ -100,8 +92,8 @@ export const products = [
 export const regionsServed = [
   {
     name: "Pará",
-    description: "Atendimento regional com retirada em Ananindeua/PA e negociação direta pelo WhatsApp.",
-    detail: `Retirada: ${company.address}. Horário: ${company.pickupHours}.`,
+    description: "Atendimento regional e negociação direta pelo WhatsApp.",
+    detail: "Condições comerciais definidas conforme volume, disponibilidade e região."
   },
   {
     name: "Santa Catarina",
@@ -159,8 +151,6 @@ export const businessFacts = [
   { icon: Globe2, label: "Domínio oficial", value: company.domain },
   { icon: Fish, label: "Produto principal", value: company.mainProduct },
   { icon: Truck, label: "Volume mensal", value: company.operationVolume },
-  { icon: MapPin, label: "Retirada Belém/PA", value: company.address },
-  { icon: Clock, label: "Horário de retirada", value: company.pickupHours },
   { icon: Phone, label: "WhatsApp", value: company.whatsapp },
   { icon: Mail, label: "E-mail", value: company.email },
 ];
@@ -177,11 +167,6 @@ export const structureItems = [
     title: "Atendimento B2B",
     text: "Fornecimento para restaurantes, buffets, mercados, distribuidores e revendedores.",
     icon: Users,
-  },
-  {
-    title: "Retirada em Ananindeua/PA",
-    text: `${company.address}. Atendimento para retirada das ${company.pickupHours}.`,
-    icon: MapPin,
   },
   {
     title: "Canais oficiais",
@@ -207,10 +192,6 @@ export const faqs = [
   {
     question: "Qual é o volume mensal de distribuição?",
     answer: `A operação distribui aproximadamente ${company.operationVolume}, conforme disponibilidade e demanda mensal.`,
-  },
-  {
-    question: "Onde é feita a retirada no Pará?",
-    answer: `A retirada para Belém/PA ocorre em ${company.address}, no horário de ${company.pickupHours}.`,
   },
   {
     question: "Qual é a identificação legal da empresa?",

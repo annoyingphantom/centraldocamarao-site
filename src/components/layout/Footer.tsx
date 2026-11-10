@@ -60,10 +60,6 @@ export function Footer() {
             <p>Domínio: {company.domain}</p>
             <p>E-mail: {company.email}</p>
             <p>WhatsApp: {company.whatsapp}</p>
-            <p>Retirada Belém/PA: {company.address}</p>
-            <a href={company.googleBusinessProfileUrl} target="_blank" rel="noreferrer" className="transition hover:text-white">
-              Google Maps: Ver perfil oficial
-            </a>
           </div>
           <div className="mt-5 flex gap-3">
             <a

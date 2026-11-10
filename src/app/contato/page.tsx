@@ -1,14 +1,13 @@
 ﻿import type { Metadata } from "next";
 import { BusinessInfo } from "@/components/sections/BusinessInfo";
 import { MapAndContact } from "@/components/sections/MapAndContact";
-import { PickupLocation } from "@/components/sections/PickupLocation";
 import { company } from "@/data/company";
 import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Contato oficial da Central do Camarão: WhatsApp, e-mail, redes sociais e ponto de retirada em Ananindeua/PA.",
+    "Contato oficial da Central do Camarão: WhatsApp, e-mail e redes sociais.",
   alternates: {
     canonical: absoluteUrl("/contato"),
   },
@@ -27,7 +26,6 @@ export default function ContactPage() {
         </p>
       </section>
       <MapAndContact />
-      <PickupLocation />
       <BusinessInfo />
     </main>
   );
